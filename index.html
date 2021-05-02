@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List App</title>
+    <style>
+        h1 {
+            color: rgb(158, 120, 248);
+        }
+
+        .main {
+            width: 600px;
+            margin: 0 auto;
+            margin-top: 100px;
+            border: double rgb(66, 66, 66) 3px;
+            padding: 10px;
+            min-height: 600px;
+        }
+
+        form {
+            padding-bottom: 30px;
+        }
+
+        label {
+            font-size: 19px;
+            display: block;
+            padding-bottom: 10px;
+        }
+
+        .btn {
+            color: #fff;
+            width: 110px;
+            padding: 8px 0 8px 0;
+            border: none;
+            background: rgb(4, 111, 252);
+            border-radius: 3px;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+
+        button {
+            color: #fff;
+            background: red;
+            border: none;
+            border-radius: 3px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: rgb(221, 2, 2);
+        }
+
+        .btn:hover {
+            background: rgb(5, 92, 206);
+        }
+
+        .input-field {
+            width: 300px;
+            height: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1>My shopping list</h1>
+        <form onsubmit="" action="#">
+            <label>Enter a new item</label>
+            <input class="input-field" type="text" placeholder="Enter item" />
+            <button class="btn">Add item</button>
+        </form>
+        <hr>
+        <ul>
+            <li>Eggs <button>Delete</button></li>
+
+        </ul>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
